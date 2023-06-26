@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Table</title>
+        <style>
+            table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 8px;
+            border: 1px solid black;
+        }
+        
+        th {
+            background-color: antiquewhite  ;
+        }
+        
+        tr:nth-child(even) {
+            background-color: aliceblue;
+        }
+		</style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lec Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 to 10:00</td>
+                    <td>Maths</td>
+                    <td>phy</td>
+                    <td>chem</td>
+                    <td>eng</td>
+                    <td>Maths</td>
+                    <td>Guj</td>
+                    <td rowspan="5">Holiday</td>
+                   
+                </tr>
+                <tr>
+                    <td>10:00 to 11:00</td>
+                    <td>Phy</td>
+                    <td>maths</td>
+                    <td>chem</td>
+                    <td>eng</td>
+                    <td>phy</td>
+                    <td>hindi</td>
+                </tr>
+                <tr>
+                    <td>11:00 to 11:30</td>
+                    <td colspan="6">Break</td>
+                </tr>
+                <tr>
+                    <td>11:30 to 12:30</td>
+                    <td>Maths</td>
+                    <td>phy</td>
+                    <td>chem</td>
+                    <td>eng</td>
+                    <td>Maths</td>
+                    <td rowspan="2">free</td>
+                </tr>
+                <tr>
+                    <td>12:30 to 01:30</td>
+                    <td>Phy</td>
+                    <td>maths</td>
+                    <td>chem</td>
+                    <td>eng</td>
+                    <td>phy</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
